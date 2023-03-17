@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    long b;
+    long long c;
+    double u;
+    long double v;
+    
+    printf("size of int = %zu btyes\n", sizeof(a));
+    printf("size of long int = %zu btyes\n", sizeof(b));
+    printf("size of long long int = %zu btyes\n", sizeof(c));
+    printf("size of double = %zu btyes\n", sizeof(u));
+    printf("size of long double = %zu btyes\n", sizeof(v));
+    return 0;
+}
